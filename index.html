@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gemini Store - Top Up & Akun Game</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body { background-color: #1a1c23; color: white; }
+        .gold-accent { color: #facc15; }
+        .bg-gold { background-color: #facc15; }
+        .card-dark { background-color: #2d2f39; border-radius: 12px; transition: 0.3s; }
+        .card-dark:hover { transform: translateY(-5px); border: 1px solid #facc15; }
+        .promo-tag {
+            position: absolute;
+            top: 0; right: 0;
+            background: linear-gradient(45deg, #facc15, #eab308);
+            color: black;
+            font-size: 10px;
+            font-weight: bold;
+            padding: 2px 8px;
+            border-radius: 0 12px 0 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="p-4 border-b border-gray-700 flex justify-between items-center bg-[#1a1c23] sticky top-0 z-50">
+        <div class="text-2xl font-bold gold-accent">GEMINI<span class="text-white">STORE</span></div>
+        <div class="flex gap-4">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+            </svg>
+            <div class="bg-gray-700 px-2 py-1 rounded text-xs flex items-center gap-1">🇮🇩 ID / IDR</div>
+        </div>
+    </nav>
+
+    <div class="px-4 mt-4">
+        <div class="w-full h-40 bg-black rounded-xl border border-gray-600 flex items-center justify-center relative overflow-hidden">
+            <span class="text-gray-500 italic text-sm">Banner Promo Area</span>
+            </div>
+    </div>
+
+    <div class="p-4">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🔥</span>
+            <h2 class="font-bold uppercase tracking-wider">Pasti Ter-muraahh</h2>
+        </div>
+        
+        <div class="grid grid-cols-2 gap-3">
+            <div class="card-dark p-3 relative">
+                <div class="promo-tag text-xs italic">HEMAT RP 2.000</div>
+                <div class="flex gap-2 items-center">
+                    <div class="w-12 h-12 bg-gray-600 rounded-lg"></div>
+                    <div>
+                        <div class="text-[10px] text-gray-400">Weekly Diamond</div>
+                        <div class="text-xs font-bold gold-accent">Rp 26.500</div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-dark p-3 relative">
+                <div class="promo-tag text-xs italic">HOT SALE</div>
+                <div class="flex gap-2 items-center">
+                    <div class="w-12 h-12 bg-gray-600 rounded-lg"></div>
+                    <div>
+                        <div class="text-[10px] text-gray-400">Membership FF</div>
+                        <div class="text-xs font-bold gold-accent">Rp 19.900</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="p-4">
+        <div class="flex items-center gap-2 mb-3">
+            <span class="text-xl">🔥</span>
+            <h2 class="font-bold uppercase tracking-wider">Populer Sekarang!</h2>
+        </div>
+
+        <div class="grid grid-cols-2 gap-3">
+            <div class="card-dark p-2 flex items-center gap-3">
+                <div class="w-10 h-10 bg-blue-500 rounded-lg shrink-0 overflow-hidden">
+                    <img src="https://img.utdstc.com/icon/4f1/76d/4f176d630d8d011d13f98299298583486c96b7972049e290875e5330a3f4e195:200" alt="ML">
+                </div>
+                <div>
+                    <div class="text-[11px] font-bold leading-tight">Mobile Legends</div>
+                    <div class="text-[9px] text-gray-400 uppercase">Moonton</div>
+                </div>
+            </div>
+            <div class="card-dark p-2 flex items-center gap-3">
+                <div class="w-10 h-10 bg-red-500 rounded-lg shrink-0 overflow-hidden">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7hD-P8rP07Uo7V_6lA-S4V0h_f6N9E67u2Q&s" alt="FF">
+                </div>
+                <div>
+                    <div class="text-[11px] font-bold leading-tight">Free Fire</div>
+                    <div class="text-[9px] text-gray-400 uppercase">Garena</div>
+                </div>
+            </div>
+            <div class="card-dark p-2 flex items-center gap-3">
+                <div class="w-10 h-10 bg-yellow-600 rounded-lg shrink-0"></div>
+                <div>
+                    <div class="text-[11px] font-bold leading-tight">PUBG Mobile</div>
+                    <div class="text-[9px] text-gray-400 uppercase">Tencent</div>
+                </div>
+            </div>
+            <div class="card-dark p-2 flex items-center gap-3">
